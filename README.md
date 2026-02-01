@@ -33,19 +33,14 @@ and canceling the remaining order once one is executed.
 ## Project Structure
 
 binance_bot/
-│
 ├── src/
-│   │
 │   ├── market_orders.py
 │   ├── limit_orders.py
-│   │
 │   └── advanced/
-│       │
 │       ├── stop_limit.py
 │       ├── oco.py
 │       ├── twap.py
 │       └── grid.py
-│
 ├── bot.log
 └── README.md
 
@@ -121,4 +116,5 @@ No real funds are involved. This project is intended for educational and evaluat
 ## Author
 Harshavardhan Reddy
 Python Developer – Binance Future Orders Bot
+
 
